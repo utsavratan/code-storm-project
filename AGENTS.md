@@ -1,0 +1,23 @@
+# Project conventions
+- Company pages share CompanyWorkspace navigation and coordinator-style action panels; overview search and people/attendance shortcuts stay within existing authorized screens, and record forms and authorization remain authoritative.
+- Registered operational email templates use the shared React Email branded layout; other emails retain the existing HTML brand helper, keeping safe rendering and feature-specific send authorization intact.
+
+- Keep service presentation in the reusable ServiceCard component and render only configured descriptions, features and prices; this avoids inventing commercial promises.
+- Homepage and service catalogue share the active service records and ServiceCard so descriptions, prices and selections cannot drift.
+- Blog article previews use semantic links and filters wrap long saved category/topic labels to preserve keyboard access and narrow-screen readability.
+- Shared Button variants own decorative action-button shine; do not globally restyle native controls, tabs, links or destructive actions, so interaction semantics remain visible.
+- Homepage event promotion uses saved published upcoming events and links to the existing event registration/payment screen; never seed fabricated public events to fill the funnel.
+- Show the full navigation from the laptop (lg) breakpoint with tightened spacing; compact menu only on phones and tablets, so desktop users never get the phone menu.
+- Navigation dropdowns use opaque semantic surfaces and support Escape and outside-click dismissal so page imagery cannot impair visibility.
+- Dashboard shortcuts must navigate to existing authorized screens without adding or bypassing permissions.
+- Dashboard personal tools persist by role and actual account ID on the current device; verification links use the verification screen's typed query keys.
+- Hidden-file HTTP responses belong to hosting; client routes and unsupported redirect files cannot change their status codes.
+- Leave decisions use the dedicated MFA-verified leave-decision function and its fixed email template; recipients come from saved employees, conditional updates prevent conflicting decisions, and event-based send keys make retries safe.
+- Attendance camera streams are attached after video mounting and released on close/unmount; storage and attendance writes must succeed before reporting a successful check-in or check-out.
+- Employee face enrollment requires a verified active employee account and explicit consent, can only fill an empty face reference atomically, and stores photos privately; replacements remain MFA-coordinator-only to prevent self-replacement of registered identities.
+- Offline/installable app uses vite-plugin-pwa generateSW registered only via src/lib/registerSW.ts (blocked in dev/preview/iframes, NetworkFirst pages); saved tickets are scoped to the current account, QR images are generated locally, and stale/offline copies cannot start payment, preserving privacy and offline access.
+- Event detail restores the authenticated owner's registration before showing forms; payment returns use bounded server verification and confirmed-only QR/reference rules, so reloads cannot expose unpaid tickets or imply payment from a URL.
+- Portfolio and Services use shared visibility-aware rotation controls with pause on interaction and reduced-motion support; Services renders the same ServiceCard and saved records on both screens to avoid commercial drift.
+- Services presents its automatically rotating spotlight above a complete catalogue, with hover/focus pausing but no visible rotation controls; the catalogue keeps all choices accessible without relying on animation.
+- ServiceCard uses a featured presentation for the spotlight and a compact catalogue presentation from the same saved data; presentation variants must keep selection and commercial content identical.
+- The internal Careers route replaces browser history with the shared external careers destination and provides a fallback link; this prevents a back-button redirect loop and keeps entry points consistent.

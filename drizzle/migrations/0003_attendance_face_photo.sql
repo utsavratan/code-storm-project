@@ -1,0 +1,2 @@
+ALTER TABLE public.employees ADD COLUMN IF NOT EXISTS attendance_face_path text;
+COMMENT ON COLUMN public.employees.attendance_face_path IS 'Private storage path of the reference face used only for attendance matching (separate from photo_url).';

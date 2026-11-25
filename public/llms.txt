@@ -1,0 +1,27 @@
+# THRYLOS INDIA
+
+> Technology studio offering web development, mobile apps, cloud, AI integration, cybersecurity, and digital strategy services.
+
+THRYLOS INDIA partners with founders and businesses to ship modern digital products. We design, build, deploy and support web and mobile platforms end-to-end.
+
+## Pages
+
+- [Home](/): Overview of services, portfolio, and how we work.
+- [About](/about): Our story, team, mission, and approach.
+- [Services](/services): Web development, mobile apps, cloud, AI, cybersecurity, and digital strategy.
+- [Portfolio](/portfolio): Selected projects and case studies.
+- [Reviews](/reviews): Client reviews and testimonials.
+- [Choose Manager](/choose-manager): Pick a project manager to lead your engagement.
+- [Verification Plans](/verification-plans): Profile verification tiers and pricing.
+- [Blog](/blog): Articles on technology, product, and business.
+- [Contact](/contact): Reach the team for project inquiries and support.
+- [Help & Documentation](/docs): How to start a project, payments, refunds, verification and your data rights.
+- [Full content for AI](/llms-full.txt): Detailed facts about THRYLOS INDIA.
+
+## Optional
+
+- [Privacy Policy](/privacy-policy)
+- [Terms and Conditions](/terms-and-conditions)
+- [Payment Policy](/payment-policy)
+- [Refund Policy](/refund-policy)
+- [Cookie Policy](/cookie-policy)

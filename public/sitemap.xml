@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://thrylosindia.in/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://thrylosindia.in/about</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://thrylosindia.in/services</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://thrylosindia.in/portfolio</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://thrylosindia.in/contact</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://thrylosindia.in/get-started</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://thrylosindia.in/choose-manager</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://thrylosindia.in/verification-plans</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://thrylosindia.in/reviews</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://thrylosindia.in/search</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://thrylosindia.in/blog</loc><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>https://thrylosindia.in/auth</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://thrylosindia.in/docs</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://thrylosindia.in/cookie-policy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://thrylosindia.in/privacy-policy</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://thrylosindia.in/terms-and-conditions</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://thrylosindia.in/payment-policy</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://thrylosindia.in/refund-policy</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://thrylosindia.in/unsubscribe</loc><changefreq>yearly</changefreq><priority>0.2</priority></url>
+  <url><loc>https://thrylosindia.in/newsletter-preferences</loc><changefreq>yearly</changefreq><priority>0.2</priority></url>
+  <url><loc>https://thrylosindia.in/verify</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://thrylosindia.in/events</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+</urlset>

@@ -1,0 +1,76 @@
+# Roadmap
+- [ ] Nov 24: rebuild employee workspace with daily actions, activity, searchable records and clear loading/error states; restructure Contact and verify both on phones/laptops.
+
+- [ ] Nov 16: approve Utsav's pending leave through MFA coordinator UI and confirm inbox receipt (requires owner OTP/authenticator and inbox access).
+- [x] Nov 16: check current database warnings and private photo storage; no active persisted findings and no active quick-scan warnings. Deeper review started; do not treat historical count as current.
+- [ ] Nov 16: complete deeper security review when scan results arrive; keep user-dismissed findings unchanged.
+- [x] Nov 16: deploy employee first-face enrollment with consent and private, atomic storage; 11 regression tests pass; signed-in employee Attendance loads at desktop/mobile with no overflow/runtime errors; deployed existing-face replacement returns 409. First-photo upload and real check-in remain unverified without an unenrolled employee and real photo/camera/location.
+- [ ] Nov 16: real first-photo upload and attendance save/read-back (requires unenrolled employee and real photo/camera/location). Coordinator walkthrough currently reaches Admin Sign In, not a verified MFA session; no approval performed and no inbox receipt claimed.
+- [ ] Remove Services grid backgrounds, refine shared cards, and redesign Contact with enquiry selection and email copying; preserve payment and contact submission logic.
+- [x] User reported live payment and related flows working on 11 November 2026; this is owner confirmation, not a new automated payment test.
+- [x] Redesign shared service cards and Contact, add Careers entry points and redirect to https://careers.thrylos.in; 390/1040/1280px layouts, all seven services, sign-in navigation, contact validation/FAQ and the loaded external Careers page verified; 12 tests pass. Contact message/email delivery not tested.
+- [x] Redesign the shared Services cards and spotlight, rebuild About below its preserved hero, and expand Contact with enquiry paths, project preparation and support answers; 390/1040/1280px layouts, service selection, FAQ and form validation verified; 11 regression tests pass. No contact email delivery test performed.
+- [x] Redesign Services cards, remove carousel controls/counters/name selectors and show the full service catalogue below; refresh About while preserving its hero; saved portfolio photos/descriptions verified in the preceding update.
+- [x] Rebuild portfolio as a large rotating project with a queued list, and Services as a layered carousel using saved content; five-second rotation, queue order, pause, selection and 390/1040/1280px screens verified; 16 regression tests passed.
+- [x] Finish homepage portfolio, sign-in-first event registration and saved-ticket restoration (including multiple registrations); real account's pending ticket restored without a form or exposed reference. Added email retry and payment-status refresh. Live payment/confirmed QR/email receipt remains the separate real-payment task below.
+- [x] Refine Company pages to match the coordinator command centre with action search, people/attendance shortcuts and polished record views; authorization unchanged.
+- [ ] Confirm a real attendance scan saves and reads back after coordinator authenticator setup (requires owner sign-in, phone authenticator and real employee camera/location).
+- [x] Align leave and other branded emails with blue accents; deploy affected senders; nine decision/offline/tool tests passed; deployed leave preview rendered with working logo and employee link and no phone overflow. Inbox receipt remains a separate real-event check.
+- [x] Redesign Company overview, Events, Clients & Leads, Projects, Leave, Expenses and Assets through shared navigation, action-led overview and improved record views; static checks passed. Authorized coordinator UI walkthrough remains blocked by coordinator sign-in/MFA below.
+- [x] Improve phone tickets with local QR/download, search/filters, account-scoped saving and sync status; real account's two registrations persisted with network disabled and re-synced on reconnect; no confirmed ticket available for QR UI check (local generator tested).
+- [ ] Install and test on the user's physical phone (requires user device access; remote installation unavailable).
+- [x] Refresh Blog; search, category filters, article navigation and 390/1040/1280px layouts verified without runtime errors.
+- [x] User and active employee tools: task/note saving, template copy, document lookup and leave planner tested; coordinator tools await owner MFA.
+- [x] Publishing requested in earlier turns for real-phone installation; further publishing only when explicitly requested.
+- [x] Report exact traffic limits; harmless bot-labelled request returned 200, origin country lookup unavailable (429); no country-denial gate exists in source.
+- [ ] Coordinator authenticator, real face upload/ticket scan and payment invoice receipt walkthrough (requires owner authenticator, real photograph/device and payment).
+- [x] Refresh About editorial sections, shared service cards, Contact and Blog; verified at 390/1040/1280px, article search/navigation, service selection and contact validation.
+- [x] Redesign About below the existing hero without numbering or grid tiles.
+- [x] Extend continuous blue action-button shine to event pages and remaining action controls.
+- [ ] Verify homepage event-card navigation and registration-to-payment flow; add only confirmed real upcoming events (awaiting event details).
+- [x] Redesign shared service cards and homepage Services presentation; selection tested; current records have four inclusions each (expansion not applicable).
+- [x] Rebuild About as editorial sections with capabilities, process, team and direct contact actions; checked at 390/1040/1280px.
+- [x] Apply reference-inspired continuous edge shine to shared blue action buttons; animation and reduced-motion behavior verified.
+- [x] Homepage event funnel: upcoming published events with register CTA (auto-hides when no upcoming events)
+- [x] Event payment invoice: branded PDF invoice attached to the ticket email after paid registration (deployed event-ticket + cashfree-webhook)
+- [x] User dashboard: My Event Tickets widget (upcoming confirmed/pending registrations)
+- [x] Improve attendance camera mounting/readiness, cleanup and persistence failure handling without weakening identity checks (real-device identity walkthrough remains below)
+- [x] Replace leave status dropdown with approval/rejection actions and employee outcome emails; deployed, five decision tests pass
+- [ ] Verify leave approval/rejection and email receipt through coordinator UI (requires coordinator MFA and a pending employee-linked request)
+- [x] Improve About content, page metadata and clean link-only event sharing (completed in earlier turns; About and Events load without runtime errors).
+- [x] Research audience growth and save a ranked starting plan (THRYLOS-growth-plan.md)
+- [x] Fix opaque navigation dropdown and homepage configured service details (390/1052/1280/1440px browser checks); add project ID copying, employee document search/refresh, and coordinator attention queue
+- [ ] Verify employee document search/refresh with an employee-linked account and coordinator attention queue after MFA (current account is not employee-linked; coordinator MFA remains enforced)
+- [x] Fix tablet navigation overlap and add detailed animated service cards (1280px browser check, no runtime errors)
+- [x] Add useful cross-dashboard shortcuts with existing permissions (user ticket navigation tested; employee/coordinator shortcuts require role walkthrough)
+- [x] Deploy auth-email-hook and five migrated transactional email functions; notify domain verified (actual delivery still requires testing)
+- [x] Verify hidden-file HTTP status on hosting: 403 blocks access; returning 404 requires hosting support
+- [x] Richer coordinator login security email
+- [x] Fix scanner data-access findings (blog, follows, newsletter, profiles, uploads)
+- [x] Consent on contact / review / newsletter forms
+- [x] Privacy Policy DPDP rights + grievance officer
+- [x] SEO/AEO/GEO: business schema, llms-full.txt, sitemap
+- [x] Backend auth/role audit + rate limits on exposed services
+- [x] Signup privacy consent stored with policy version
+- [x] Emailed PDF payment invoice on successful payment
+- [x] Emailed payment invoice matches manual design (logo, sign, seal, QR, barcode)
+- [x] Scannable short barcodes + payment invoices verifiable on /verify
+- [x] Follows privacy fix
+- [x] Fix app load error
+- [x] Plan checkout server price + activation
+- [x] MFA page redesign
+- [ ] Hidden-file probes return 404 (hosting must change its blocked 403 response; cannot be changed in client code)
+- [ ] Review 38 older database access warnings (requires a separately scoped findings review; leave previously dismissed findings unchanged)
+- [x] Events in top menu + /events pages live
+- [x] Coordinator dashboard: Company overview, Events, Clients & Leads, Projects, Leave, Expenses, Assets
+- [x] Test copies of every email type sent to owner
+- [x] Online payment for paid event tickets + automatic ticket email
+- [ ] Confirm automatic plan-purchase PDF invoice delivery with a real payment (webhook and branded renderer implemented)
+- [x] Employee dashboard live at /employee
+- [x] Separate private attendance face photo + faster auto face scan
+- [x] My Tickets: QR only by email, Email my ticket + Pay buttons
+- [x] Page titles for all pages (private ones hidden from search)
+- [x] Security pass: scan clean, deps patched, no emails in logs, no source maps
+- [x] Upgrade React Router to 7.18.4; services, navigation and signed-in dashboard tested without runtime errors
+- [ ] Real employee face enrollment/attendance and coordinator camera ticket-scan walkthrough
+- [ ] Complete remaining attachment-email router migrations and verify receipt (tickets, invoices, HR documents and salary slips)

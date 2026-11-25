@@ -1,0 +1,27 @@
+User-agent: *
+Allow: /
+Disallow: /dashboard
+Disallow: /settings
+Disallow: /notifications
+Disallow: /contacts
+Disallow: /analytics
+Disallow: /coordinator-admin
+Disallow: /coordinator-admin/dashboard
+Disallow: /pm/login
+Disallow: /pm/dashboard
+Disallow: /blogger-admin
+Disallow: /~oauth/
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+Sitemap: https://thrylosindia.in/sitemap.xml
